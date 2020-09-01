@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="f4b9-eebe-b016-7298" name="Forces of Light" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="9eae-0060-d2cb-2349" gameSystemRevision="3" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="d4bf-7f70-99de-20eb" name="Lord" hidden="false" collective="false" import="true" targetId="ff3e-c13b-133e-1ca0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4cdc-f454-e344-71ff" name="Lord" hidden="false" targetId="03b7-6aa9-a03b-8071" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="ff3e-c13b-133e-1ca0" name="Lord" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
@@ -33,6 +40,7 @@ Constant</characteristic>
                     <characteristic name="Traits" typeId="ff57-cc56-85da-15f8">Guardian, Holy, Human, Technomancer</characteristic>
                     <characteristic name="Criticals" typeId="4f32-eb95-3813-58b4">Explode, Wound</characteristic>
                     <characteristic name="Token Skills" typeId="0b95-f7de-c5f1-7a10">Focus, Guard, Channel</characteristic>
+                    <characteristic name="Keywords" typeId="d773-cf12-6468-01e2">Deadly 2, Huge, Fly, Immune, Pierce 1, Reach</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -53,6 +61,9 @@ FAQ: This ability can combine with Blade Cyclone (BC). If this is activated befo
               </rules>
               <selectionEntryGroups>
                 <selectionEntryGroup id="0871-ec59-1a5a-ac32" name="Upgrades" hidden="false" collective="false" import="true">
+                  <categoryLinks>
+                    <categoryLink id="48e4-6782-3b7d-95f2" name="Upgrades" hidden="false" targetId="6173-1a99-a86b-6e28" primary="false"/>
+                  </categoryLinks>
                   <entryLinks>
                     <entryLink id="d72b-a325-eba6-3069" name="Upgrades" hidden="false" collective="false" import="true" targetId="ba3b-6f79-e920-db59" type="selectionEntryGroup"/>
                   </entryLinks>
@@ -66,11 +77,17 @@ FAQ: This ability can combine with Blade Cyclone (BC). If this is activated befo
               <costs>
                 <cost name="Cost" typeId="c494-d0ff-a958-c070" value="14.0"/>
                 <cost name="Victory Points" typeId="8c1b-64a7-de14-26b9" value="14.0"/>
+                <cost name="Fate" typeId="7540-583a-760c-a57d" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="Fate" typeId="7540-583a-760c-a57d" value="0.0"/>
+        <cost name="Victory Points" typeId="8c1b-64a7-de14-26b9" value="0.0"/>
+        <cost name="Cost" typeId="c494-d0ff-a958-c070" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
