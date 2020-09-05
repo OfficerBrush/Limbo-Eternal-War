@@ -412,7 +412,10 @@
                 <characteristic name="Skill 2" typeId="6008-87fa-4c1a-6cee"/>
                 <characteristic name="Traits" typeId="a185-ee4a-642e-37d2">Arcane, Demon, Undead</characteristic>
                 <characteristic name="Criticals" typeId="9ef8-76bb-c4cc-3a78"/>
-                <characteristic name="VP Track" typeId="a0b2-ad1b-7f1e-f32c"/>
+                <characteristic name="VP Track" typeId="a0b2-ad1b-7f1e-f32c">Fallen: 
+1 = 3
+2 = 6
+3 = 8</characteristic>
                 <characteristic name="Keywords" typeId="c4f7-494f-7643-7638"/>
                 <characteristic name="Token Skills" typeId="9cac-1866-e02e-1d1d"/>
               </characteristics>
@@ -421,6 +424,41 @@
           <categoryLinks>
             <categoryLink id="9719-1035-7f88-f265" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
           </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="9eb8-cb26-92b2-f904" name="1 Gheist" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eae-6e9b-f0e6-32da" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="0920-f875-456d-048b" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="3.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb44-7a36-53cd-fac6" name="2 Gheist " hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b17-268e-cc85-a502" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="2f79-00e8-c04c-1c0f" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="69b8-02eb-fce5-8f53" name="3 Gheist" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a52-189c-18d8-6781" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="6497-6b58-3dd4-5108" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
         <selectionEntry id="7e69-235c-02f4-6afd" name="Ossilyte Guard" hidden="false" collective="false" import="true" type="model">
           <profiles>
@@ -436,7 +474,13 @@
                 <characteristic name="Skill 2" typeId="6008-87fa-4c1a-6cee"/>
                 <characteristic name="Traits" typeId="a185-ee4a-642e-37d2">Guardian, Knight, Ossilyte, Undead</characteristic>
                 <characteristic name="Criticals" typeId="9ef8-76bb-c4cc-3a78"/>
-                <characteristic name="VP Track" typeId="a0b2-ad1b-7f1e-f32c"/>
+                <characteristic name="VP Track" typeId="a0b2-ad1b-7f1e-f32c">Fallen: 
+1 = 2
+2 = 4
+3 = 6
+4 = 7
+5 = 8
+</characteristic>
                 <characteristic name="Keywords" typeId="c4f7-494f-7643-7638"/>
                 <characteristic name="Token Skills" typeId="9cac-1866-e02e-1d1d"/>
               </characteristics>
@@ -445,8 +489,65 @@
           <categoryLinks>
             <categoryLink id="dc02-b8e9-c280-3383" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
           </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="44e7-ea8e-fbf0-df3f" name="1 Guard" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02a1-9975-90ef-3ae2" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="6b4c-048f-f6b9-da5c" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="2.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3ad3-c89f-b105-38b9" name="2 Guards" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa6-5961-f8ee-dc71" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="2cbe-3939-318b-12f6" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7f14-6499-f450-f94a" name="3 Guards" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b9d-8e37-8007-7018" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="dc86-7780-059e-46e2" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ddcb-0b12-94c1-6825" name="4 Guards" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="519e-5840-737e-2578" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="5fc3-33ec-29dd-a121" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="25e1-a36c-d9a2-2d91" name="5 Guards" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="269f-2da3-c37a-0b32" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="b5d5-5ea6-20af-cb75" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="8.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
-        <selectionEntry id="0485-eeb4-f394-783e" name="Berserker of Blood" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0485-eeb4-f394-783e" name="Berserker of Blood" hidden="false" collective="false" import="true" type="model">
           <profiles>
             <profile id="e25d-b9f4-53ef-ab04" name="Berserker of Blood" hidden="false" typeId="67ed-66d0-e4ae-8ccc" typeName="Troop">
               <characteristics>
@@ -460,7 +561,10 @@
                 <characteristic name="Skill 2" typeId="6008-87fa-4c1a-6cee"/>
                 <characteristic name="Traits" typeId="a185-ee4a-642e-37d2">Brute, Demon, Hunter</characteristic>
                 <characteristic name="Criticals" typeId="9ef8-76bb-c4cc-3a78"/>
-                <characteristic name="VP Track" typeId="a0b2-ad1b-7f1e-f32c"/>
+                <characteristic name="VP Track" typeId="a0b2-ad1b-7f1e-f32c">Fallen: 
+1= 4
+2= 7
+3=10</characteristic>
                 <characteristic name="Keywords" typeId="c4f7-494f-7643-7638"/>
                 <characteristic name="Token Skills" typeId="9cac-1866-e02e-1d1d"/>
               </characteristics>
@@ -469,6 +573,41 @@
           <categoryLinks>
             <categoryLink id="1371-3bea-94d6-6f36" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
           </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="01c1-e72d-b240-1ceb" name="1 Berserker" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3bf-36aa-90a5-0884" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="b991-efe6-80eb-3b87" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1e65-1b08-2770-1e82" name="2 Berserkers" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bcc-c496-14ff-ddb0" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="dc4d-2096-1f22-6188" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="7.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ea7f-16c5-3bc2-9719" name="3 Berserkers" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2ed-e788-b27a-89a1" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="e84a-b8e4-88ea-d872" name="Troop" hidden="false" targetId="9d34-3652-fcc5-0fa3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Cost" typeId="c494-d0ff-a958-c070" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
